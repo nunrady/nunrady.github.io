@@ -1,0 +1,39 @@
+.background{
+    background-color: #F5F6F7;
+    margin-left:136px;
+    margin-right: 136px;
+    margin-bottom:10px;
+    margin-top:0px;
+    width:1484px;
+}
+.title{
+    text-align: center;
+    padding-top:33px;
+    padding-bottom: 90px;
+    font-size: 22px;
+}
+.picture401 {
+    display:flex;
+}
+
+
+.picture div div {
+    border-top:auto solid black;
+    border-radius: 5px;
+    background-color:white;
+    width: 275px;
+    height: 100%;
+    margin:22px;
+}
+
+.picture div div p{
+    padding:15px;
+    margin:0px;
+    font-size: 16px;
+}
+.picture div div img {
+    width:275px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
