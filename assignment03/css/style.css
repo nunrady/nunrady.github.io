@@ -1,29 +1,35 @@
 .background{
     background-color: #F5F6F7;
-    margin-left:136px;
-    margin-right: 136px;
     margin-bottom:10px;
     margin-top:0px;
-    width:1484px;
+    padding-left:143px;
+    padding-right:143px;
+    margin:0 auto;
+    position:absolute;
+
+    
 }
 .title{
     text-align: center;
     padding-top:33px;
     padding-bottom: 90px;
     font-size: 22px;
+    width:auto;
 }
-.picture401 {
-    display:flex;
+.picture {
+    display: flex;
+    width: auto;
+    height: 2000px;
+    margin:0 auto;
+    overflow:scroll;
+
 }
-
-
 .picture div div {
     border-top:auto solid black;
     border-radius: 5px;
     background-color:white;
     width: 275px;
-    height: 100%;
-    margin:22px;
+    margin:10px;
 }
 
 .picture div div p{
@@ -36,4 +42,3 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
