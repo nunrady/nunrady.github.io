@@ -1,0 +1,243 @@
+.container{
+    height:600px;
+    width: 1300px;
+    background-color:#EBEFF2;
+
+}
+.menu-picture{
+    display:flex;
+    height:50px;
+    background-color: white;
+    width:1299px;
+    
+}
+.menu{
+    background-color: #FFFFFF;
+    width: 500px;
+}
+.menu{
+    display:flex;
+}
+
+
+.menu ol{
+    list-style-type: none;
+    padding-left: 100px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+.menu ol li{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#67757F;
+    display:inline;
+    cursor:pointer;
+    padding: 10px;
+    background-color:white;
+    z-index: 1;
+
+}
+.menu a:link{
+    text-decoration: none;
+    color:#67757F;
+    border-bottom: 1p solid;
+    
+}
+.menu a:visited{
+  color:#67757F;
+  
+}
+.menu a:hover{
+    color:gray;
+    border-bottom:none;
+}
+.menu a:active{
+    color:pink;
+}
+.images1{
+    
+    width: 47px;
+    margin:-5px;
+    padding-left:71px;
+    text-align: center;
+    position:relative;
+
+}
+.logo{
+    width:300px;
+    margin:20px;
+}
+.margin-left{
+    width:164px;
+}
+.tweet{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    cursor:pointer;
+    text-align: center;
+    background-color: #49B3F4;
+    padding-left:19px;
+    padding-right:19px;
+    border-radius: 25px;
+    margin-top:8px;
+    margin-bottom:16px;
+    font-weight: bolder;
+
+}
+
+.picture1{
+
+    width: 300px;
+    background-color: white;
+    height:300px;
+}
+.rata{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 40px;
+    text-align: center;
+    font-size: 27px;
+    
+}
+.picture1 img{
+    height: 90px;
+    border-radius: 90px;
+    position:relative;
+    left:34px;
+    bottom:32px;
+}
+.menu-one{
+    background-color: white;
+    margin: 0px;
+}
+.remy{
+    position: relative;
+    left: 132px;
+    bottom: 91px;
+}
+.menu-one ol{
+    list-style-type: none;
+    background-color: white;
+    padding-left: 26px;
+}
+.menu-one ol li{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#67757F;
+    display:inline;
+    cursor:pointer;
+    padding: 10px;
+}
+.first{
+    width: 100px; 
+}
+.bodyer{
+    display: flex;
+    margin-top: 20px;
+}
+.ratapicture{
+    float:left;
+    width:40px;
+    height:40px;
+    margin-right:10px;
+    border-radius: 40px;
+}
+.message{
+    border-style:none;
+    padding:5px;
+    width:400px;
+    background-color: white;
+    margin-left:10px;
+    margin-bottom: 2px;
+}
+.message1{
+    border-style:none;
+    padding:5px;
+    width:300px;
+    background-color: white;
+    margin-left:10px;
+    margin-bottom: 2px;
+    height:59px;
+}
+.message2{
+    border-style:none;
+    padding-left:16px;
+    width:294px;
+    background-color: white;
+    margin-left:10px;
+    text-align: left;
+    padding-top: 19px;
+    padding-bottom:19px;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom:-1px;
+}
+.follow{
+   background-color: white;
+   text-align: center;
+   border-radius: 20px;
+   position: relative;
+   left:83px;
+   bottom:36px;
+   padding:4px;
+   width:65px;
+   margin-bottom:-25px;
+   cursor: pointer;
+   border-color:#49B3F4;
+   border-style:solid;
+}
+.message3{
+    position:relative;
+    border-style:none;
+    padding-left:16px;
+    width:294px;
+    background-color: white;
+    margin-left:10px;
+    text-align: left;
+    padding-top: 19px;
+    padding-bottom:19px;
+    margin-bottom:-1px;
+    height: 45px;
+}
+.remy div:first-child{
+    font-weight: bold;
+}
+.remy div:last-child{
+    font-weight: lighter;
+    color:#67757F;
+}
+.menu-two{
+    color:#49B3F4;
+    display:flex;
+    background-color: white;
+    height: 35px;
+    font-weight: bold;
+
+}
+.menu-two div{
+    padding-left:49px
+}
+.bigremy{
+    font-weight: bold;
+}
+.smallremy{
+    color:#67757F;
+}
+.tweet a:link{
+    text-decoration: none;
+    color:white;
+    border-bottom: 1p solid;
+    
+}
+.tweet a:visited{
+  color:white;
+
+  
+}
+.tweet a:hover{
+    color:yellow;
+    border-bottom:blue;
+}
+.tweet a:active{
+    color:white;
+}
