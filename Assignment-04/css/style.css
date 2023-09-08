@@ -1,0 +1,183 @@
+.headercolor{
+    background: #1E1F29;
+    color:white;
+    font-weight: bold;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top: 4px solid #A4B1C7;
+}
+.headercolor div span{
+    padding-right:5px;
+    font-size: 8px;
+}
+.phone{
+    color:red;
+    height:10px;
+}
+.rightaccount{
+    text-align: right;
+}
+.search{
+    background: #15161D;
+    padding:10px;
+    border-bottom: 4px solid red;
+}
+.heart{
+    color:white;
+
+}
+.font-heart1{
+    text-align: center;
+    font-size: 10px;
+}
+.font-heart2{
+    text-align:center;
+    font-size: 10px;
+}
+.heart1{
+    position: absolute;
+    margin-left:35px;
+   
+    
+}
+.heart2{
+    position: absolute;
+    margin-left:35px;
+    
+    
+}
+.Electro{
+    color:white;
+    font-weight:bolder;
+    font-size: 26px;
+}
+.point{
+    color:red;
+}
+.widthsearch{
+    width: 400px;
+    border-radius: 1px;
+}
+.buttonsearch{
+    background: red;
+    color:white;
+    position:relative;
+    left:-8px;
+    border-radius: 1px;
+}
+.backgroundhome a:visited{
+    /*visite link*/
+    color:#6969B0;
+}
+.backgroundhome a:hover{
+    /* mouse over line*/
+    color:red;
+    border-bottom: 1p solid;
+}
+.backgroundhome a:active{
+    /* active link*/
+    color:red;
+    border-bottom: 1p solid;
+}
+.backgroundhome a:link{
+    /*unvisite link*/
+    color:#6969B0;
+    text-decoration: none;
+    border-bottom: 1p solid;
+}
+.colorhot{
+    color:white;
+}
+.bgcolor{
+    background: #FFFFFF;
+}
+.c{
+    color:white;
+}
+.b{
+    height: 250px;
+    width:300px;
+}
+.card1{
+    border:none;
+}
+.laptopadding{
+    height:30px;
+}
+.homebar{
+    background-color: #FFFFFF;
+}
+.lefthome{
+    text-align: right;
+}
+.backgroundhome1{
+    position: relative;
+    left:150px;
+}
+.newproducts{
+    font-weight: bolder;
+    color:#2B2D48;
+    font-size: 25px;
+}
+.backgroundhome2{
+    height: 30px;
+}
+.centercategory{
+    text-align: center;
+}
+.smallcategory{
+    font-size: 10px;
+}
+.colorcash{
+    color:red;
+}
+.colorsmall{
+    font-size:12px;
+    color:gray;
+    text-decoration: line-through;
+}
+.bi-star-fill{
+    color:red;
+    background-color: white;
+    z-index:2;
+    position:relative;
+    bottom:30px;
+
+}
+.bi-star{
+    color:red;
+    background-color: white;
+    z-index:2;
+    position:relative;
+    bottom:30px;
+
+}
+.hrline{
+    z-index: 1;
+}
+.button1{
+    position:relative;
+    bottom:392px;
+    display:flex;
+    right:65px;
+    bottom:380px;
+}
+.button2{
+    width:50px;
+    height: 20px;
+    font-size: 10px;
+    padding-top:2px;
+    border-radius: 1px;
+    margin-left:2px;
+}
+.button3{
+    left:50px;
+    position:relative;
+}
+
+
+
+
+
+    
+    
