@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Show a Date and Time Control</h1>
+
+<form action="/action_page.php">
+  <label for="birthdaytime">Birthday (date and time):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+  <input type="submit">
+</form>
+
+<form action="../../form-result.php" target="_blank">
+
+    <p>Meeting: <input type="datetime" name="meetingtime"> <input type="submit" value="Send data"></p>
+  
+</form>
+
+<form action="../../form-result.php" method="post" target="_blank">
+
+    <p>
+  
+      Make an appointment: <input type="datetime" name="appointmentdate" list="appointmentdateslist">
+  
+      <input type="submit" value="Send data">
+  
+    </p>
+  
+  </form>
+  
+  <datalist id="appointmentdateslist">
+  
+    <option value="2015-05-05 08:00Z">
+  
+    <option value="2015-05-12 11:30-03:00">
+  
+    <option value="2015-05-19 09:00+01:00">
+  
+    <option value="2015-05-26 22:19:45.32+00:00">
+  
+  </datalist>
+
+</body>
+</html>
