@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Floats and collapsing parents</title>
+	<style>
+		div{
+			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Parent Div -->
+	<!-- Making the parent also floated to
+		prevent collapsing -->
+	<div style="background-color: green; float: left">
+
+		<!-- Children div's begins, floated to left -->
+		<div style="float: left;">HTML5</div>
+		<div style="float: left;">CSS3</div>
+		<div style="float: left;">JavaScript</div>
+		<div style="float: left;">Python</div>
+		<div style="float: left;">MySQL</div>
+		<div style="float: left;">MongoDB</div>
+		<!-- Children div's ends -->
+
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>table-layout property in CSS</title>
+   <style>
+      table {
+         border-collapse: collapse;
+         border: 2px solid rgb(156, 112, 112);
+      }
+      th,
+      td {
+         border: 2px solid rgb(130, 99, 99);
+      }
+      table#tableAuto {
+         table-layout: auto;
+         width: 300px;
+      }
+      table#tableFixed {
+         table-layout: fixed;
+         width: 300px;
+      }
+      div {
+         max-width: 300px;
+         padding: 12px;
+         border: 2px solid rgb(144, 102, 102);
+      }
+      h1 {
+         color: rgb(111, 164, 111);
+      }
+   </style>
+</head>
+<body>
+   <center>
+      <h1>Examples of table layout property</h1>
+      <h2>table-layout property in CSS</h2>
+      <div>
+         <h3>Property value set to auto</h3>
+         <table id="tableAuto">
+            <tr>
+               <th>Some Name</th>
+               <th>Some Age</th>
+               <th>Some Roll No</th>
+            </tr>
+            <tr>
+               <td>Some Name 1</td>
+               <td>Some Age 1</td>
+               <td>Some Roll No 1</td>
+            </tr>
+            <tr>
+               <td>Some Name 2</td>
+               <td>Some Age 2</td>
+               <td>Some Roll no 2</td>
+            </tr>
+         </table>
+      </div>
+      <br />
+      <div>
+         <h3>The property value set to fixed</h3>
+         <table id="tableFixed">
+            <tr>
+               <th>Some Name</th>
+               <th>Some Age</th>
+               <th>Some Roll no</th>
+            </tr>
+            <tr>
+               <td>Some Name 1</td>
+               <td>Some Age 1</td>
+               <td>Some Roll no 1</td>
+            </tr>
+            <tr>
+               <td>Some Name 2</td>
+               <td>Some Age 2</td>
+               <td>Some Roll no 2</td>
+            </tr>
+         </table>
+      </div>
+   </center>
+</body>
+</html>

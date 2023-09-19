@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img:hover {
+  opacity: 0.5;
+}
+.aa{
+
+background-color: red;
+text-align: center;
+z-index: 1;
+
+}
+.bb{
+
+background-color: blue;
+text-align: center;
+z-index: 2;
+top:30px;
+left:30px;
+}
+.cc{
+
+background-color: yellow;
+text-align: center;
+z-index: 3;
+top:60px;
+left:60px;
+}
+.box{
+position: absolute;
+height:150px;
+width:150px;
+opacity:0.9;
+}
+.main{
+position:relative;
+}
+</style>
+</head>
+<body >
+
+<h1>Image Transparency</h1>
+<p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+<div class="main">
+  <img src="../CSS Background/images/food.svg" alt="Forest"  class="aa box">
+  <img src="../CSS Background/images/city.svg" alt="Mountains"  class="bb box">
+  <img src="../CSS Background/images/mobile.gif" alt="Italy"  class="cc box">
+</div>
+
+
+</body>
+</html>

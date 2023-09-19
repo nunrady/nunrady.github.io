@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>empty-cell property</title>
+	<style>
+		table.geek {
+			empty-cells: initial;
+		}
+
+		.g4g {
+			empty-cells: inherit;
+		}
+
+		td {
+			text-align: center;
+		}
+
+		.gfg {
+			font-size: 40px;
+			font-weight: bold;
+			color: green;
+		}
+
+		.geeks {
+			font-size: 17px;
+		}
+	</style>
+</head>
+
+<body>
+	<center>
+		<div class="gfg">GeeksforGeeks</div>
+		<div class="geeks">A computer science
+			portal for geeks</div>
+
+		<h2>empty-cells: show;</h2>
+		<table class="geek" border="1">
+			<tr>
+				<td>C Programming</td>
+				<td>Algorithm</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<table class="g4g" border="1">
+						<tr>
+							<td>DP</td>
+							<td>Backtracking</td>
+						</tr>
+						<tr>
+							<td>Sorting</td>
+							<td></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+
+</html>

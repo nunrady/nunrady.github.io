@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>selection Demo</title>
+	<style>
+		body {
+			background-color: whitesmoke;
+			color: green;
+			text-align: center;
+		}
+		
+		p::selection {
+			color: red;
+			background-color: green;
+			font-size: 30px;
+		}
+		
+		::selection {
+			color: green;
+			background-color: red;
+			font-size: 30px;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Geeks For Geeks</h1>
+	<h2>::selection element</h2>
+
+	<p>
+		Content in this paragraph turns
+		red with green background on selection.
+	</p>
+
+	<span>
+		As this is not a paragraph, you can
+		notice red background and green text on
+		selection.
+	</span>
+</body>
+
+</html>
