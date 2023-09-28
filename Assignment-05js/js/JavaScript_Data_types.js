@@ -1,0 +1,30 @@
+var a1 = 'hi how are you';
+var a2 = "find thank and you";
+var a3 = 30;
+var a4 = 80.30;
+var isruning = true;
+var issweeming = false;
+var a5;
+var a6 = "Ok";
+var a7 = null;
+alert(a7);
+var objecta1 ={};
+var colorsa1 = ["Red", "yellow", "blue"];
+var citiesa1 = ["Phnom Penh","London","Paris"];
+var greetinga1 = function(){
+    return "Hello World";
+};
+typeof 15;
+console.log(a1);
+console.log(a2);
+console.log(a3);
+console.log(a4);
+console.log(a5);
+console.log(a6);
+console.log(a7);
+console.log(isruning);
+console.log(issweeming);
+console.log(colorsa1);
+console.log(citiesa1);
+console.log(greetinga1);
+

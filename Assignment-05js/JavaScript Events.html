@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body>
+        <pre>
+            •	Attaching event handlers inline
+            •	Attaching event handlers in an external file
+            •	Handling the click event
+            •	Handling the contextmenu event
+            •	Handling the mouseover event
+            •	Handling the mouseout event
+            •	Handling the keydown event
+            •	Handling the keyup event
+            •	Handling the keypress event
+            •	Handling the focus event
+            •	Handling the blur event
+            •	Handling the change event
+            
+            
+        </pre><br>
+        <button type="button" onclick="alert('You have clicked a button!');">Click Me</button>
+        <button type="button" oncontextmenu="alert('You have right-clicked a button!');">Right Click on Me</button>
+        <button type="button" onmouseover="alert('You have placed mouse pointer over a button!');">Place Mouse Over Me</button>
+        <button type="button" onmouseout="alert('You have moved out of the button!');">Place Mouse Inside Me and Move Out</button><br><br>
+        <input type="text" onkeydown="alert('You have pressed a key inside text input!')">
+        <input type="text" onkeyup="alert('You have released a key inside text input!')">
+        <input type="text" onkeypress="alert('You have pressed a key inside text input!')">
+        <input type="text" onfocus="highlightInput(this)">
+        <input type="text" onblur="alert('Text input loses focus!')"><br><br>
+        <select onchange="alert('You have changed the selection!');">
+            <option>Select</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+        <form action="action.php" method="post" onsubmit="alert('Form data will be submitted to the server!');"></form><br><br>
+        <p id="result"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <p id="demo"></p>
+
+
+
+        
+
+        
+    
+    
+        <script src="js/JavaScript_Events.js"></script>
+      
+    </body>
+
+</html>
